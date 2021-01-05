@@ -80,4 +80,8 @@ p a {
       width: 90%;
       text-align: center;
    }
+
+   textarea {
+      max-width: 60%;
+   }
 }
