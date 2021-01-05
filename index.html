@@ -1,0 +1,52 @@
+<!-- 05.01.2021 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Vaca e Cumadi Criador de Meme</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+
+   <h1 class="animate__animated animate__bounce">Vaca e Cumadi criador de Meme</h1>
+   <div class="container">
+      <p class="animate__animated animate__backInLeft">
+         <textarea id="top-text" cols="30" rows="10"></textarea>
+         Tamanho do texto: <input id="top-text-size-input" type="range" min="0.05" max="0.25" value="0.15" step="0.01">
+      </p>
+      <p class="animate__animated animate__backInRight">
+         <textarea id="bottom-text" cols="30" rows="10"></textarea>
+         Tamanho do texto: <input id="bottom-text-size-input" type="range" min="0.05" max="0.25" value="0.15"
+            step="0.01">
+      </p>
+      <p id="input-file">
+         <input type="file" id="img-input" accept="image/*">
+      </p>
+      <p class="animate__animated animate__tada">
+         <button id="generate-btn">Criar Meme!</button>
+      </p>
+      <p class="animate__animated animate__swing">
+         <canvas id="meme-canvas">
+
+         </canvas>
+      </p>
+      <p id="date"></p>
+   </div>
+
+   <div id="footer">
+      <footer class="footer">
+         <p>©2021 - Vaca e Cumadi criador de Meme
+            <br>
+            Criado por <a href="https://jcgsr.github.io/">Jovane</a>
+         </p>
+
+      </footer>
+   </div>
+   <script src="app.js"></script>
+</body>
+
+</html>

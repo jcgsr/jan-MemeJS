@@ -1,0 +1,29 @@
+{
+  "name": "jan-memejs",
+  "version": "1.0.0",
+  "description": "Criador de Meme em JS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcgsr/jan-MemeJS.git"
+  },
+  "keywords": [
+    "Meme",
+    "JS"
+  ],
+  "author": "jovane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcgsr/jan-MemeJS/issues"
+  },
+  "homepage": "https://github.com/jcgsr/jan-MemeJS#readme",
+  "devDependencies": {
+    "eslint": "^7.17.0"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+*, html {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   color: greenyellow;
+   text-align: center;
+   font-family: 'Goldman', cursive;
+}
+
+h1 {
+   padding: 1rem;
+   text-shadow: 1px 1px black;
+   box-shadow: 1px 1px 3px rgb(157, 157, 184);
+   background-image: url('idosa.jpg');
+   background-size: contain;
+}
+
+button {
+   padding: .75rem;
+   margin-top: 1rem;
+   font-weight: bolder;
+   color: greenyellow;
+   text-shadow: 1px 1px rgb(48, 46, 46);
+   box-shadow: 1px 3px greenyellow;
+   background-image: url('vaca1.jpg');
+   background-size: cover;
+}
+
+textarea {
+   padding: 1rem;
+   font-size: larger;
+   opacity: 0.6;
+   color: black;
+   text-shadow: 1px 1px greenyellow;
+}
+
+p {
+   color: greenyellow;
+   text-shadow: 1px 1px black;
+}
+
+p a {
+   font-size: x-small;
+}
+
+.container {
+   padding: 1rem;
+   background-image: url('vaca.jpg');
+   background-size: cover;
+}
+
+#input-file {
+   margin-top: 1rem;
+}
+
+#meme-canvas {
+   width: 400px;
+   margin-top: 1rem;
+}
+
+.footer p {
+   background-image: url('vaca1.jpg');
+   background-size: cover;
+   color: greenyellow;
+   padding: 1rem;
+}
+
+#footer {
+   font-size: smaller;
+   width: 100%;
+}
+
+#date {
+   padding-top: 1rem;
+}
+
+@media only screen and (max-width: 456px) {
+   #meme-canvas {
+      width: 90%;
+      text-align: center;
+   }
+}
