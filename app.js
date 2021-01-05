@@ -69,14 +69,14 @@ function init() {
    })
 }
 
-// let date = new Date()
-// let currentDate = date.toLocaleDateString('pt-BR', {
-//    day: '2-digit',
-//    month: 'short',
-//    year: 'numeric'
-// })
+let date = new Date()
+let currentDate = date.toLocaleDateString('pt-BR', {
+   day: '2-digit',
+   month: 'short',
+   year: 'numeric'
+})
 
-// document.querySelector('p#date').innerHTML = currentDate
+document.querySelector('p#date').innerHTML = currentDate
 
 function playSound () {
    document.querySelector('#play').play();
