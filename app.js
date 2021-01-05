@@ -78,7 +78,7 @@ let currentDate = date.toLocaleDateString('pt-BR', {
 
 document.querySelector('p#date').innerHTML = currentDate
 
-function playSound () {
+function playSound() {
    document.querySelector('#play').play();
 }
 
