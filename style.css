@@ -10,8 +10,8 @@
 
 h1 {
    padding: 1rem;
-   text-shadow: 1px 1px black;
-   box-shadow: 1px 1px 3px rgb(157, 157, 184);
+   text-shadow: 1px 1px blue;
+   box-shadow: 1px 1px 3px greenyellow;
    background-image: url('idosa.jpg');
    background-size: contain;
 }
@@ -50,6 +50,14 @@ p a {
    background-size: cover;
 }
 
+.footer p {
+   background-image: url('vaca1.jpg');
+   background-size: cover;
+   color: greenyellow;
+   padding: 1rem;
+}
+
+
 #input-file {
    margin-top: 1rem;
 }
@@ -59,12 +67,6 @@ p a {
    margin-top: 1rem;
 }
 
-.footer p {
-   background-image: url('vaca1.jpg');
-   background-size: cover;
-   color: greenyellow;
-   padding: 1rem;
-}
 
 #footer {
    font-size: smaller;
@@ -72,6 +74,11 @@ p a {
 }
 
 #date {
+   padding-top: 1rem;
+}
+
+#rights {
+   font-size: x-small;
    padding-top: 1rem;
 }
 

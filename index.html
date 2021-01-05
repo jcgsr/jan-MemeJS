@@ -15,11 +15,11 @@
    <h1 class="animate__animated animate__bounce">Vaca e Cumadi Memator</h1>
    <div class="container">
       <p class="animate__animated animate__backInLeft">
-         <textarea id="top-text" cols="30" rows="10"></textarea>
+         <textarea id="top-text" placeholder="Texto de cima" cols="30" rows="10"></textarea>
          Tamanho do texto: <input id="top-text-size-input" type="range" min="0.05" max="0.25" value="0.15" step="0.01">
       </p>
       <p class="animate__animated animate__backInRight">
-         <textarea id="bottom-text" cols="30" rows="10"></textarea>
+         <textarea id="bottom-text" placeholder="Texto de baixo" cols="30" rows="10"></textarea>
          Tamanho do texto: <input id="bottom-text-size-input" type="range" min="0.05" max="0.25" value="0.15"
             step="0.01">
       </p>
@@ -31,11 +31,9 @@
          <audio id="play" src="Cow-moo-sound.mp3"></audio>
       </p>
       <p class="animate__animated animate__swing">
-         <canvas id="meme-canvas">
-
-         </canvas>
+         <canvas id="meme-canvas"></canvas>
       </p>
-      <p id="date"></p>
+      <!-- <p id="date"></p> -->
    </div>
 
    <div id="footer">
@@ -43,7 +41,10 @@
          <p>©2021 - Vaca e Cumadi Memator. Webapp criador de Memes
             <br>
             Criado por <a href="https://jcgsr.github.io/">Jovane</a>
+            <br>
+            <span id="rights">Todos os Direitos Reservados</span>
          </p>
+        
 
       </footer>
    </div>
