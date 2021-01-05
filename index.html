@@ -5,14 +5,14 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Vaca e Cumadi Criador de Meme</title>
+   <title>Vaca e Cumadi Memator</title>
    <link rel="stylesheet" href="style.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
 
-   <h1 class="animate__animated animate__bounce">Vaca e Cumadi criador de Meme</h1>
+   <h1 class="animate__animated animate__bounce">Vaca e Cumadi Memator</h1>
    <div class="container">
       <p class="animate__animated animate__backInLeft">
          <textarea id="top-text" cols="30" rows="10"></textarea>
@@ -27,7 +27,8 @@
          <input type="file" id="img-input" accept="image/*">
       </p>
       <p class="animate__animated animate__tada">
-         <button id="generate-btn">Criar Meme!</button>
+         <button onclick="playSound()" id="generate-btn">Criar Meme!</button>
+         <audio id="play" src="Cow-moo-sound.mp3"></audio>
       </p>
       <p class="animate__animated animate__swing">
          <canvas id="meme-canvas">
@@ -39,7 +40,7 @@
 
    <div id="footer">
       <footer class="footer">
-         <p>©2021 - Vaca e Cumadi criador de Meme
+         <p>©2021 - Vaca e Cumadi Memator. Webapp criador de Memes
             <br>
             Criado por <a href="https://jcgsr.github.io/">Jovane</a>
          </p>
